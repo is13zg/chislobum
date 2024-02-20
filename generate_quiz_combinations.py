@@ -26,12 +26,12 @@ def generate_combinations(template, start=0):
 
 
 # Исходная строка с фигурными скобками
-template = "Какое {наибольшое,наименьшее} число на клетке {красного, желтого, оранжевого, зеленого, синего, фиолетового} цвета ? "
+#template = "Какое {наибольшое,наименьшее} число на клетке {красного, желтого, оранжевого, зеленого, синего, фиолетового} цвета ? "
 
-template = input()
+#template = input()
 # Генерация всех возможных комбинаций
-combinations = generate_combinations(template)
+#combinations = generate_combinations(template)
 
 # Вывод комбинаций
-for combination in combinations:
-    print(combination)
+#for combination in combinations:
+#    print(combination)
